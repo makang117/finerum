@@ -19,7 +19,7 @@
   "timestamp"  : "0x00"
 }
 ```
-存储文件为==genesis.json==。启动geth节点的时候引用该文件，以下为各个参数的说明。
+存储文件为<kbd>genesis.json</kbd>。启动geth节点的时候引用该文件，以下为各个参数的说明。
 
 -   mixhash：与nonce配合用于挖矿，由上一个区块的一部分生成的hash。注意他和nonce的设置需要满足以太坊的Yellow paper, 4.3.4. Block Header Validity, (44)章节所描述的条件。
 -   nonce nonce就是一个64位随机数，用于挖矿，注意他和mixhash的设置需要满足以太坊的Yellow paper, 4.3.4. Block Header Validity, (44)章节所描述的条件。
